@@ -1,5 +1,5 @@
 # Use an official Golang image as the base
-FROM golang:1.21-alpine
+FROM golang:1.23-alpine
 
 # Install git (required for go install), bash (optional for running), and ca-certificates
 RUN apk add --no-cache git bash ca-certificates && update-ca-certificates
